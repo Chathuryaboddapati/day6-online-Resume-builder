@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Resume Builder</title>
+    <link style="border-radius: 100%;" rel="icon" href=
+    "https://icon-library.com/images/resume-icon/resume-icon-10.jpg"
+              type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Resume Builder</h1>
+      <div class="form-section">
+        <h2>Contact Information</h2>
+        <input type="text" id="name" placeholder="Name" />
+        <input type="text" id="email" placeholder="Email" />
+        <input type="text" id="phone" placeholder="Phone" />
+        <h2>Summary</h2>
+        <textarea id="summary" placeholder="Write a short summary about yourself"></textarea>
+        <h2>Education</h2>
+        <div class="education-block">
+          <input type="text" id="degree-1" placeholder="Degree" />
+          <input type="text" id="institution-1" placeholder="Institution" />
+          <input type="text" id="year-1" placeholder="Year" />
+        </div>
+        <button class="add-education">+ Add Education</button>
+        <h2>Work Experience</h2>
+        <div class="work-experience">
+          <input type="text" id="position-1" placeholder="Position" />
+          <input type="text" id="company-1" placeholder="Company" />
+          <input type="text" id="duration-1" placeholder="Duration" />
+          <textarea id="description-1" placeholder="Description"></textarea>
+        </div>
+        <button class="add-work-experience">+ Add Work Experience</button>
+      </div>
+      <button class="download">Download Resume</button>
+    </div>
+  </body>
+</html>

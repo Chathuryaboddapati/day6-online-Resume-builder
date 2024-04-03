@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+body {
+  font-family: 'Raleway', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url(https://wallpapercave.com/wp/wp7447292.jpg);
+  background-image: no-repeat;
+  background-attachment: fixed;
+	background-size: 96rem;
+}
+
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  
+}
+
+h1,
+h2 {
+  margin: 0 0 10px;
+}
+
+input,
+textarea,
+button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: aliceblue;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+  background-color:aliceblue;
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.2);
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  border-color: #007bff;
+}
+
+button:hover {
+  background-color: white;
+  border-color: #0062cc;
+}
+
+.add-education,
+.add-work-experience {
+  margin-top: 10px;
+  background-color: transparent;
+  border-color: transparent;
+  color: #007bff;
+  cursor: pointer;
+}
+
+.add-education:hover,
+.add-work-experience:hover {
+  text-decoration: underline;
+}
+
+.download {
+  display: block;
+margin-top: 30px;
+color: red;
+}
+
+.education-block,
+.work-experience {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.education-block input,
+.work-experience input {
+  flex: 1;
+}
+
+.education-block input:nth-child(2),
+.work-experience input:nth-child(2) {
+  flex: 2;
+}
+
+.education-block input:nth-child(3),
+.work-experience input:nth-child(3) {
+  flex: 1;
+}
+
+.education-block textarea,
+.work-experience textarea {
+  flex: 3;
+}
